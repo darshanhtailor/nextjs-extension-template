@@ -1,0 +1,5 @@
+# Move files from ./out/_next to ./out/next
+robocopy out/_next out/next /E /MOVE
+
+# Copy files from ./extension to ./out
+robocopy ./extension ./out /E
